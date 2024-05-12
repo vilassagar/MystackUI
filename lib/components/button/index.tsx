@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+// import  '../../index.css'
 // utils
 // @ts-ignore
 import Ripple from "material-ripple-effects";

@@ -20,11 +20,19 @@ export type children = ReactNode;
 export type loading = boolean;
 
 // javascript prop-types
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesVariant: any = ["filled", "outlined", "gradient", "text"];
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesSize: any = ["sm", "md", "lg"];
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesColor: any = ["white", "black", ...propTypesColors];
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesFullWidth: any = PropTypes.bool;
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesRipple: any = PropTypes.bool;
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesClassName: any = PropTypes.string;
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesChildren: any = PropTypes.node.isRequired;
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
 export const propTypesLoading: any = PropTypes.bool;
